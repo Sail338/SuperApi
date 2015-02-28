@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="com.box:box-java-sdk:0.5.0" type="repository">
+    <properties maven-id="com.box:box-java-sdk:0.5.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/box/box-java-sdk/0.5.0/box-java-sdk-0.5.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/eclipsesource/minimal-json/minimal-json/0.9.1/minimal-json-0.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/box/box-java-sdk/0.5.0/box-java-sdk-0.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/box/box-java-sdk/0.5.0/box-java-sdk-0.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

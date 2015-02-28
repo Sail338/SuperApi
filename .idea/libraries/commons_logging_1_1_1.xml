@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-api-client-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-api-client-android-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-api-client-appengine-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-api-client-gson-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-api-client-jackson2-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-api-client-java6-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-api-client-servlet-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-http-client-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-http-client-android-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-http-client-appengine-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-http-client-gson-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-http-client-jackson2-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-http-client-jdo-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-oauth-client-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-oauth-client-appengine-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-oauth-client-java6-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-oauth-client-jetty-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/google-oauth-client-servlet-1.19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/gson-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/httpclient-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/httpcore-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/jackson-core-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/jdo2-api-2.3-eb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/jetty-6.1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/jetty-util-6.1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/jsr305-1.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/transaction-api-1.1.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/google-api-services-drive-v2-rev161-1.19.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/google-api-services-drive-v2-rev161-1.19.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs/jsr305-1.3.9.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs" />
+      <root url="jar://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/google-api-services-drive-v2-rev161-1.19.1-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../CodeDay/google-api-services-drive-v2-rev161-java-1.19.1/drive/libs" recursive="false" type="SOURCES" />
+  </library>
+</component>
