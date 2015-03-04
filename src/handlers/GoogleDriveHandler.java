@@ -13,6 +13,7 @@ import com.google.api.services.drive.Drive;
 import com.google.api.services.drive.DriveScopes;
 import com.google.api.services.drive.model.File;
 
+import javax.management.Query;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -31,12 +32,12 @@ public class GoogleDriveHandler {
     HttpTransport transport;
     GoogleAuthorizationCodeFlow flow;
    // GuiForm guiForm = new GuiForm();
-     String ID = "476186802144-3e7o48beciln3m72t2j0nipt91hgfqf4.apps.googleusercontent.com";
-     String Secret = "tqnQTykdXr6irZjypv7h4nb5";
+     String ID = "ID";
+     String Secret = "SECREt";
      String REDIRECT_URL = "urn:ietf:wg:oauth:2.0:oob";
     public void autheticateGoogle() throws IOException {
-        ID = "476186802144-3e7o48beciln3m72t2j0nipt91hgfqf4.apps.googleusercontent.com";
-        Secret = "tqnQTykdXr6irZjypv7h4nb5";
+        ID = "ID";
+        Secret = "Secret";
         REDIRECT_URL = "urn:ietf:wg:oauth:2.0:oob";
         transport = new NetHttpTransport();
         factory = new JacksonFactory();
@@ -83,16 +84,16 @@ public class GoogleDriveHandler {
     public String getCode() {
         return code;
     }
-    public void searchFile(String s) {
+    public void searchFile(String s) throws IOException {
         File searchFile = new File();
         searchFile.setTitle(s);
-        try {
-            int bigList = Service.files().list().getMaxResults();
-            System.out.println(bigList);
-        }
-        catch (Exception l) {
-            l.printStackTrace();
-        }
+        Query query = new Query();
+        String searcher = s;
+        String lel = "''";
+        searcher = lel + searcher +lel;
+        Service.files().list().setQ("title contains" + searcher);
+
+
 
     }
     public void getRefreshToken() {

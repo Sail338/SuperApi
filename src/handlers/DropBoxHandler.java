@@ -28,8 +28,8 @@ public class DropBoxHandler {
     private String dropBoxStrin;
     public void authenticateDropBox() throws IOException, DbxException {
 
-        final String APP_KEY = "1egzbr2a0d4sg85";
-        final String APP_SECRET = "gtk07nbexijgagm";
+        final String APP_KEY = "MY APP KEY";
+        final String APP_SECRET = "SECRET KEY";
 
          dbxAppInfo = new DbxAppInfo(APP_KEY, APP_SECRET);
          config = new DbxRequestConfig("uploader", Locale.getDefault().toString());
@@ -64,7 +64,7 @@ public class DropBoxHandler {
 }
     public void downloadFile(String filename) throws DbxException, IOException{
         FileOutputStream stream = new FileOutputStream(filename.replace("/",""));
-
+        
          downloadfile = getClient().getFile("//"+filename,null,stream);
         System.out.println("Downloading" + downloadfile.toString());
         stream.close();
@@ -74,7 +74,7 @@ public class DropBoxHandler {
     }
     public void searchFile(String shit) throws DbxException{
      badList = getClient().searchFileAndFolderNames("/", shit);
-        System.out.println(badList);
+        System.out.println(badList.toString());
     }
     public List<DbxEntry> getBadList() {
         return  badList;

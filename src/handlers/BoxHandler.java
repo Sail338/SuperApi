@@ -5,6 +5,7 @@ import com.box.sdk.BoxFolder;
 import com.box.sdk.BoxUser;
 import com.box.sdk.ProgressListener;
 
+import javax.management.Query;
 import java.io.FileInputStream;
 import java.io.IOException;
 
@@ -14,9 +15,9 @@ import java.io.IOException;
 public class BoxHandler {
     BoxAPIConnection boxAPIConnection;
     public void authenticateBox() {
-        final String DeveloperToken = "jlULLzpqYXlHXAQ3Lz0YRGVS5emSsv2b";
-        final String Id = "jimwbsbvtu1koldxkruwfvwbxwtjb2o8";
-        final String Secret = "zMlisikdk6aq8UlDx99U58x30jEyCBBc";
+        final String DeveloperToken = "AP KEY";
+        final String Id = "id";
+        final String Secret = "secret";
 
 
         boxAPIConnection = new BoxAPIConnection(DeveloperToken);
@@ -45,7 +46,11 @@ public class BoxHandler {
 
 stream.close();
     }
-    public void searchFile() {
+
+    public void searchFile(String searchString) {
+        Query query = new Query();
+
+
     }
 
 
